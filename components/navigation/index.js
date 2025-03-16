@@ -15,4 +15,17 @@ export function initNavigation()
         }
         
     })
+    window.addEventListener("hashchange",(e)=>{
+        e.preventDefault()
+        if(location.search="about")
+        {
+            renderAboutMe()
+        }
+        else
+        {
+            renderHome()
+        }
+        
+        
+    })
 }

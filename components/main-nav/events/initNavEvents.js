@@ -11,7 +11,7 @@ export function initNavEvents()
             if(!history.state || history?.state?.page!="1")
             {
                 renderHome()
-                history.pushState({page:"1"},"home","?=home")
+                history.pushState({page:"1"},"home","")
 
             }
             
@@ -21,7 +21,7 @@ export function initNavEvents()
         {
             if(history?.state?.page!="2")
             {
-                history.pushState({page:"2"},"home","?=about")
+                history.pushState({page:"2"},"about","")
                 renderAboutMe()
 
             }
