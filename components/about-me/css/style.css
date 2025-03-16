@@ -1,0 +1,31 @@
+.aboutMe__wrapper {
+
+    text-align: left;
+}
+
+.aboutMe__header {
+    width: 100%;
+   
+    color: var(--color-secondary);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.aboutMe__flex {
+    
+}
+
+.aboutMe__image {
+    object-fit: contain;
+    width: 125px;
+    height: 125px;
+    float: right;
+}
+
+.aboutMe__description {
+    line-height: 28px;
+}
+
+@media screen and (max-width: 1200px) {
+   
+}
