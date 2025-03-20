@@ -2,6 +2,7 @@
     padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid var(--color-primary);
+    color: var(--color-primary);
     background-color: white;
     cursor: pointer;
 }
